@@ -45,7 +45,7 @@ public class MainFrame extends JFrame {
                 data.add(line);
             }
         }
-        Collections.sort(data); // Sort the data alphabetically
+        Collections.sort(data); // Sortera datan?
         return data;
     }
 
