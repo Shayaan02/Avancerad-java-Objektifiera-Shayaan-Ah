@@ -39,7 +39,6 @@ public class MainFrame extends JFrame {
         List<String> data = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;
-            // Read and discard the header row
             reader.readLine();
             while ((line = reader.readLine()) != null) {
                 data.add(line);
